@@ -23,21 +23,14 @@ public class MainActivity3 extends AppCompatActivity {
 
         btn.setOnClickListener(v -> {
             int i = Integer.parseInt(num1.getText().toString());
-            int j = Integer.parseInt(num2.getText().toString());
+//            int j = Integer.parseInt(num2.getText().toString());
+            System.out.println();
 
         });
     }
 
     public class MultiTask extends AsyncTask<String,String,String>{
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-        }
 
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-        }
 
         @Override
         protected String doInBackground(String... strings) {
