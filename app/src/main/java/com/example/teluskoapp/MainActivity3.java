@@ -25,6 +25,7 @@ public class MainActivity3 extends AppCompatActivity {
             int i = Integer.parseInt(num1.getText().toString());
 //            int j = Integer.parseInt(num2.getText().toString());
             System.out.println();
+            System.out.println("small changes");
 
         });
     }
